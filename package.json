@@ -1,0 +1,25 @@
+{
+     "name": "@globules-io/cordova-plugin-remove-duplicate-permissions",
+     "version": "1.0.0",
+     "description": "Cordova plugin to clean duplicate permissions from AndroidManifest.xml",
+     "author": {
+          "name": "Globules.io"
+     },
+     "license": "MIT",
+     "repository": {
+          "type": "git",
+          "url": "https://github.com/globules-io/cordova-plugin-remove-duplicate-permissions"
+     },
+     "cordova": {
+          "id": "cordova-plugin-remove-duplicate-permissions",
+          "platforms": [
+               "android"
+          ]
+     },    
+     "keywords": [
+          "ecosystem:cordova",
+          "cordova-android",
+          "manifest",
+          "permissions"
+     ]
+}
