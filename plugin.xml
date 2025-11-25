@@ -5,7 +5,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>cordova-plugin-remove-duplicate-permissions</name>
-    <description>Removes duplicate <uses-permission> entries from AndroidManifest.xml</description>
+    <description>Removes duplicate &lt;uses-permission&gt; entries</description>
     <license>MIT</license>
     <keywords>cordova, android, manifest, permissions</keywords>
 
