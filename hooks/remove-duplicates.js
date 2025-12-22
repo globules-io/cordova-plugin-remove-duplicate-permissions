@@ -16,7 +16,7 @@ module.exports = function (ctx) {
 
      let perms = new Set();
      let toRemove = [];
-     const reg = /(android\.permission\.[A-Za-z_]+)/;
+     const reg = /(android\.permission\.[A-Za-z_]+(\.[A-Za-z_]+)?)/;
 
      for (let line of lines) {
           const match = reg.exec(line);
